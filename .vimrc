@@ -144,3 +144,13 @@ set clipboard=unnamed
 
 " rainbow bracket settings
 let g:rainbow_active=1
+
+" https://danielmiessler.com/study/vim/
+inoremap jk <ESC>
+
+let mapleader = "'"
+
+set noswapfile
+set hlsearch
+set ignorecase
+set incsearch
